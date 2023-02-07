@@ -1,0 +1,108 @@
+body {
+    background-image: url('background2.jpg');
+    font-family:'Times New Roman', Times, serif
+    background-repeat: no-repeat;
+    background-size:cover
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {    /* Essa aqui é a cor do nome das redes sociais     */
+    color:aliceblue;
+    text-decoration: none;
+}
+
+header img {  /* Essa aqui é da sua foto  */
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid hsl(180, 49%, 50%);
+}
+
+.center {   /* esse aqui centraliza a foto pessoal do seu portfolio */
+    text-align:center;
+}
+
+
+footer img { /*esse é o tamanho do icone das suas redes sociais */
+    width: 80px;
+    height: 80px;
+   
+}
+
+footer {  /*alinhamento dos icones das suas redes sociais*/
+    display:flex;
+    justify-content:center;
+    
+}
+
+footer a { /*esse é a altura e dos icones redes sociais*/
+    margin: 50px;
+    text-align: center;
+   
+}
+
+footer p { /*essa é a altura dos nomes das sua redes sociais, distancia do nome pro icone*/
+    margin-top: 2px;
+}
+
+.container { /*essa é a distancia entre seus tetos e a borda da tela*/
+    padding: 2px 100px;
+}
+
+nav a { /*esse é o tamanho do nome "projeto" e "Contato"*/
+    font-size: 25px;
+}
+
+nav a:hover { /*essa é a cor que fica quando vc passa o mouse no nome 'projeto' e 'contato'*/
+    color: #16868f;
+}
+
+.contact-form input{ /*esse é o tamanho do formulario de contato*/
+    width: 100%;
+    padding: 7px 0;
+    margin: 10px 0;
+}
+
+.contact-form input[type=text] { /*tamanho da caixa de texto do formulario*/
+    height: 40px;
+    
+}
+
+button { /*cor e dimensao do botao de enviar*/
+    color:azure;
+    background-color: #137972;
+    border:#10d5c1;
+    width: 100px;
+    height: 30px;
+}
+p1 {
+    color:azure;
+}
+p2 {
+    color: azure;
+}
+p3 {
+    color:azure;
+}
+h1 {
+    color: hsl(188, 58%, 45%);
+}
+h2 {
+    color: #269287;
+}
+h3 {
+    color: #10d5c1;
+}
+h4 {
+    color: #10d5c1;
+}
+h5 {
+    color:aquamarine;
+}
