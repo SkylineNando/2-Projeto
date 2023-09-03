@@ -5,6 +5,56 @@ body {
     background-size:cover
 }
 
+
+ /* Adicione suas animações CSS aqui */
+    .container {
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fade-in 1s ease-in-out forwards;
+    }
+
+    @keyframes fade-in {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    header img {
+        transform: scale(0.8);
+        animation: scale-up 1s ease-in-out forwards;
+    }
+
+    @keyframes scale-up {
+        from {
+            transform: scale(0.8);
+        }
+        to {
+            transform: scale(1);
+        }
+    }
+
+    main section {
+        opacity: 0;
+        transform: translateX(-20px);
+        animation: slide-in 1s ease-in-out forwards;
+    }
+
+    @keyframes slide-in {
+        from {
+            opacity: 0;
+            transform: translateX(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
 ul {
     display: flex;
     justify-content: space-between;
